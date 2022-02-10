@@ -8,7 +8,8 @@ import os
 from termcolor import colored
 
 
-
+print colored("Sabar.....", ('red'))
+time.sleep(5)
 os.system('clear')
 
 
