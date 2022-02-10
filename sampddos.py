@@ -38,7 +38,7 @@ Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
                        ]
 
 print colored("#################################################", ('red'))
-print colored("OrionX Menyerang ip: %s Dan Membunuh Port: %s"%(orgip,port), ('red)
+print colored("OrionX Menyerang ip: %s Dan Membunuh Port: %s"%(orgip,port), ('red')
 print colored("#################################################", ('red'))
 print_slow("█▀▀█ █▀▀█ ░▀░ █▀▀█ █▀▀▄ █░█
 █░░█ █▄▄▀ ▀█▀ █░░█ █░░█ ▄▀▄
