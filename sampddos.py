@@ -7,7 +7,6 @@ import time
 import os
 from termcolor import colored
 
-Try this:
 
 def print_slow(str):
     for letter in str:
