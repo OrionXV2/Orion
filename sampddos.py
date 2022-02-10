@@ -48,7 +48,6 @@ print colored("#################################################", ('red'))
 
 
 
-
 class MyThread(threading.Thread):
      def run(self):
          while True:
